@@ -1192,11 +1192,12 @@ display: inline-block;
     left: 0px;
     opacity: 0;
     z-index: 99;
+
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s; }
+      transition: all 0.3s ease-out 0s;}
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .slider-area .bd-example .carousel .carousel-control-prev, .slider-area .bd-example .carousel .carousel-control-next {
         left: 30px;
@@ -1208,9 +1209,10 @@ display: inline-block;
     @media (max-width: 767px) {
       .slider-area .bd-example .carousel .carousel-control-prev, .slider-area .bd-example .carousel .carousel-control-next {
         left: 20px;
-        font-size: 20px; } }
+        font-size: 20px; }}
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .slider-area .bd-example .carousel .carousel-control-prev, .slider-area .bd-example .carousel .carousel-control-next {
+        
         font-size: 34px; } }
   .slider-area .bd-example .carousel .carousel-control-next {
     right: 0px;
@@ -1237,10 +1239,10 @@ display: inline-block;
         background-color: #fff;
         border-radius: 5px; }
   .slider-area .bd-example .carousel:hover .carousel-control-prev {
-    left: 70px;
+    left: 45px;
     opacity: 1; }
   .slider-area .bd-example .carousel:hover .carousel-control-next {
-    right: 70px;
+    right: 45px;
     opacity: 1; }
 
 .slider-3 {
