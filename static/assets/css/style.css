@@ -1208,7 +1208,7 @@ display: inline-block;
         font-size: 50px; } }
     @media (max-width: 767px) {
       .slider-area .bd-example .carousel .carousel-control-prev, .slider-area .bd-example .carousel .carousel-control-next {
-        left: 20px;
+        left: 10px;
         font-size: 20px; }}
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .slider-area .bd-example .carousel .carousel-control-prev, .slider-area .bd-example .carousel .carousel-control-next {
@@ -1225,7 +1225,7 @@ display: inline-block;
         right: 40px; } }
     @media (max-width: 767px) {
       .slider-area .bd-example .carousel .carousel-control-next {
-        right: 20px; } }
+        right: 10px; } }
   .slider-area .bd-example .carousel .carousel-indicators {
     margin-bottom: 20px; }
     .slider-area .bd-example .carousel .carousel-indicators li {
@@ -1239,10 +1239,10 @@ display: inline-block;
         background-color: #fff;
         border-radius: 5px; }
   .slider-area .bd-example .carousel:hover .carousel-control-prev {
-    left: 45px;
+    left: 10px;
     opacity: 1; }
   .slider-area .bd-example .carousel:hover .carousel-control-next {
-    right: 45px;
+    right: 10px;
     opacity: 1; }
 
 .slider-3 {
